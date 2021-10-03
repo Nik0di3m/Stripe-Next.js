@@ -1,5 +1,5 @@
-import Cors from 'micro-cors'
-
+import { Cors } from 'micro-cors'
+import { buffer } from 'micro'
 const cors = Cors({
     allowMethods: ['POST', 'HEAD'],
 })
